@@ -29,6 +29,9 @@ function Sidebar() {
         <li>
           <Link to="/add-student">➕ Add Student</Link>
         </li>
+        <li>
+          <Link to="/contact">📩 Contact</Link>
+        </li>
       </ul>
     </div>
   );

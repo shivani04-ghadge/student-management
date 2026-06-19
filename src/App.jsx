@@ -4,6 +4,7 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import StudentList from "./pages/StudentList";
 import AddStudent from "./pages/AddStudent";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/students" element={<StudentList />} />
         <Route path="/add-student" element={<AddStudent />} />
-      </Routes>
+        <Route path="/contact" element={<Contact />} />      
+        </Routes>
     </BrowserRouter>
   );
 }
